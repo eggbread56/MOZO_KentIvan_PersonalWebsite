@@ -1,0 +1,51 @@
+body {
+    
+    margin: 0;
+}
+
+#container {
+    
+    padding: 5% 10%;
+    height: 75%;
+    width: 80%;
+    display: inline-block;
+}
+
+#imageArea {
+    
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+
+#myPic {
+    
+    margin: 20% 0;
+    margin-left: 35%; 
+    height: 60%;
+    width: 60%;
+}
+
+#textArea {
+    
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    float: left;
+}
+
+#name {
+    
+    height: 60%;
+}
+
+#line {
+    
+    height: 10%;
+}
+
+#detail {
+    
+    height: 30%;
+}
