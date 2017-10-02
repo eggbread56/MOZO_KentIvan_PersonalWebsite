@@ -22,14 +22,14 @@ body {
 #myPic {
     
     margin: 20% 0;
-    margin-left: 35%; 
+    margin-left: 30%; 
     height: 60%;
     width: 60%;
 }
 
 #textArea {
     
-    width: 50%;
+    width: 40%;
     height: 100%;
     margin: 0;
     float: left;
@@ -37,7 +37,14 @@ body {
 
 #name {
     
-    height: 60%;
+    text-align: center;
+    height: 3%;
+    padding-top: 50%;
+}
+
+#name h1 {
+    
+    margin: 0;
 }
 
 #line {
@@ -45,7 +52,35 @@ body {
     height: 10%;
 }
 
+#line hr {
+    
+    border: 3px solid white;
+}
+
 #detail {
     
     height: 30%;
+}
+
+.textDetail {
+    
+    border-right: 1px solid white;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+#first {
+    
+    margin-left: 8%;
+}
+
+#last {
+    
+    border-width: 0;
+}
+
+#detail h3 {
+    
+    text-align: center;
 }
