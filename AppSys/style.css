@@ -9,72 +9,25 @@ body {
     width: 100%;
     height: 100%;
     display: inline-block;
-}
-
-.innerContainer {
-    
-    margin: 0;
-    height: 50%;
+    background-image: url(images/bground.jpg);
+    background-size: cover;
 }
 
 #upperCon {
     
-    background-color: blue;
-    opacity: 0.5;
+    height: 90%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+#topContent {
+    
+    border-width: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #lowerCon {
     
-    background-color: red;
-    opacity: 0.5;
-}
-
-.contentCon {
-    
-    width: 23%;
-    height: 90%;
-    display: inline-block;
-    margin: 1.1% .7%;    
-}
-
-#firstCon {
-    
-    background-color: red;
-    margin-left: 1.4%;
-}
-
-#secondCon {
-    
-    background-color: orange;
-}
-
-#thirdCon {
-    
-    background-color: yellow;
-}
-
-#fourthCon {
-    
-    background-color: green;
-}
-
-#fifthCon {
-    
-    background-color: blue;
-    margin-left: 1.4%;
-}
-
-#sixthCon {
-    
-    background-color: violet;
-}
-
-#seventhCon {
-    
-    background-color: chartreuse;
-}
-
-#eigthCon {
-    
-    background-color: rebeccapurple;
+    height: 10%;
+    background-color: rgba(0,0,0,0.4);
 }
