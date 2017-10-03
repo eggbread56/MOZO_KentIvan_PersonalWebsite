@@ -41,10 +41,10 @@ body {
 
 .footerButtons {
     
-    margin-top: 10px;
+    margin-top: 12.5px;
     padding-top: 10px;
     height: 45%;
-    border-right: 1px solid white;
+    border-right: 1px solid #f4cb42;
     float: left;
     text-align: center;
 }
@@ -52,11 +52,53 @@ body {
 .footerButtons a {
 
     text-decoration: none;
-    color: white;
+    color: #f4cb42;
     font-weight: 500;
     font-family: sans-serif;
     font-size: 20px;
     height: 100%;
+}
+
+#homeButton a:hover {
+    
+    padding: 22px 18px;
+    background-color: rgba(244,143,66,0.8);
+    color: white;
+}
+
+#homeButton a:active {
+    
+    padding: 22px 19px;
+    background-color: rgba(244,143,66,0.8);
+    color: white;
+}
+
+#infoButton a:hover {
+    
+    padding: 22px 19px;
+    background-color: rgba(244,143,66,0.8);
+    color: white;
+}
+
+#eduButton a:hover {
+    
+    padding: 22px 23px;
+    background-color: rgba(244,143,66,0.8);
+    color: white;
+}
+
+#hobbyButton a:hover {
+    
+    padding: 22px 18px;
+    background-color: rgba(244,143,66,0.8);
+    color: white;
+}
+
+#contactButton a:hover {
+    
+    padding: 22px 15%;
+    background-color: rgba(244,143,66,0.8);
+    color: white;
 }
 
 #homeButton {
@@ -67,7 +109,7 @@ body {
 
 #infoButton {
     
-    width: 10%;
+    width: 9%;
 }
 
 #eduButton {
@@ -77,7 +119,7 @@ body {
 
 #hobbyButton{
     
-    width: 12%;
+    width: 11%;
 }
 
 #contactButton {
