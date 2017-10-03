@@ -21,7 +21,6 @@ body {
     width: 25%;
     height: 100%;
     float: left;
-    background-color: aqua;
 }
 
 .infoSide.odd {
@@ -29,7 +28,6 @@ body {
     width: 60%;
     height: 100%;
     float: left;
-    background-color: salmon;
 }
 
 .imageSide.even {
@@ -37,7 +35,6 @@ body {
     width: 25%;
     height: 100%;
     float: left;
-    background-color: aqua;
 }
 
 .infoSide.even {
@@ -46,7 +43,6 @@ body {
     width: 60%;
     height: 100%;
     float: left;
-    background-color: salmon;
 }
 
 .label1 {
@@ -54,19 +50,16 @@ body {
     margin-top: 3%;
     height: 45%;
     width: 100%;
-    background-color: sandybrown;
 }
 
 .line {
     
     height: 5%;
     width: 100%;
-    background-color: firebrick;
 }
 
 .label2 {
     
     height: 30%;
     width: 100%;
-    background-color: chartreuse;
 }
