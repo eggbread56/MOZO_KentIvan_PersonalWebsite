@@ -74,9 +74,20 @@ body {
     width: 100%;
 }
 
-h1, h3 {
+h1 {
     
     margin: 0;
+    color: #f4cb42;
+    font-family: "Showcard Gothic";
+}
+
+h3 {
+    
+    margin: 0;
+    color: white;
+    font-weight: 100;
+    font-family: "Tahoma";
+    font-size: 15px;
 }
 
 .even h1, .even h3 {
@@ -87,4 +98,5 @@ h1, h3 {
 hr {
     
     margin: 1% 0 0 0;
+    border: 1px solid #f4cb42;
 }
