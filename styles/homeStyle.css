@@ -47,7 +47,7 @@ body {
     
     margin: 0;
     font-family: "Arial Black";
-    color: coral;
+    color: #f4cb42;
     font-size: 62px;
     margin-left: 5px;
     font-weight: bolder;
@@ -65,10 +65,9 @@ body {
     margin: 0;
 }
 
-/*#fcb42 got to change coral */
 #line hr {
     
-    border: 3px solid coral;
+    border: 3px solid #f4cb42;
 }
 
 #detail {
