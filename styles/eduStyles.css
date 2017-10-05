@@ -5,6 +5,30 @@ body {
 
 #container {
     
-    width: 60%;
+    margin: 5% 25%;
+    width: 50%;
     height: 70%;
+}
+
+.content {
+    
+    height: 30%;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.left {
+    
+    width: 25%;
+    height: 100%;
+    
+    float: left;
+}
+
+.right {
+    
+    width: 75%;
+    height: 100%;
+    background-color: aquamarine;
+    float:left;
 }
