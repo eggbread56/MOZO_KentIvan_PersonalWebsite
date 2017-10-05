@@ -5,7 +5,7 @@ body {
 
 #container {
     
-    padding: 5% 10%;
+    padding: 5% 7%;
     height: 75%;
     width: 80%;
     display: inline-block;
@@ -22,7 +22,7 @@ body {
 #myPic {
     
     margin: 20% 0;
-    margin-left: 25%; 
+    margin-left: 40%; 
     height: 60%;
     width: 60%;
 }
@@ -46,7 +46,8 @@ body {
 #name h1 {
     
     margin: 0;
-    font-family: "Open Sans";
+    font-family: "Arial Black";
+    color: #f4cb42;
     font-size: 62px;
     margin-left: 5px;
     font-weight: bolder;
@@ -66,7 +67,7 @@ body {
 
 #line hr {
     
-    border: 3px solid white;
+    border: 3px solid #f4cb42;
 }
 
 #detail {
