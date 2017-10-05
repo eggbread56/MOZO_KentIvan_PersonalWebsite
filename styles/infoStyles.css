@@ -77,10 +77,12 @@ body {
     width: 100%;
 }
 
+/*#f4cb42*/
+
 h1 {
     
     margin: 0;
-    color: #f4cb42;
+    color: coral;
     font-family: "Arial Black";
 }
 
@@ -96,7 +98,7 @@ h3 {
 hr {
     
     margin: 1% 0 0 0;
-    border: 1px solid #f4cb42;
+    border: 1px solid coral;
 }
 
 .odd img {
