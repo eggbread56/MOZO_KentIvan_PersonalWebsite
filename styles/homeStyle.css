@@ -46,9 +46,10 @@ body {
 #name h1 {
     
     margin: 0;
-    font-family: "Showcard Gothic";
-    font-size: 3vw;
+    font-family: "Open Sans";
+    font-size: 62px;
     margin-left: 5px;
+    font-weight: bolder;
 }
 
 #line {

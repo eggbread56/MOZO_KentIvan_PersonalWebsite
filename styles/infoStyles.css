@@ -19,9 +19,11 @@ body {
 
 .imageSide.odd {
     
-    width: 17%;
+    width: 25%;
     height: 100%;
     float: left;
+    margin-left: 1%;
+    margin-bottom: 5%;
 }
 
 .infoSide.odd {
@@ -99,4 +101,19 @@ hr {
     
     margin: 1% 0 0 0;
     border: 1px solid #f4cb42;
+}
+
+.odd img {
+    
+    height: 50%;
+    width: 60%;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+
+.even img {
+    
+    height: 50%;
+    width: 60%;
+    
 }
