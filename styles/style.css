@@ -89,7 +89,7 @@ body {
 
 #hobbyButton a:hover {
     
-    padding: 22px 18px;
+    padding: 22px 1.249em;
     background-color: rgba(244,143,66,0.8);
     color: white;
 }
