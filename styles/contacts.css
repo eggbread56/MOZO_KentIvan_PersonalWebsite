@@ -7,15 +7,13 @@ body {
     
     height: 80%;
     width: 40%;
-    margin: 4% 30%;
-    background-color: aqua;
+    margin: 2% 30%;
 }
 
 #upperCon {
     
     height: 30%;
     width: 100%;
-    background-color: bisque;
 }
 
 #lowerCon {
@@ -32,12 +30,233 @@ body {
 
 .botCon {
     
-    height: 30%;
+    height: 33%;
     width: 100%;
+}
+
+#first {
+    
+    margin-top: 0;
 }
 
 .info {
     
     height: 50%;
     width: 100%;
+    margin-top: 2%;
+}
+
+.info.stuck {
+    
+    margin-top: 4%;
+}
+
+img {
+    
+    margin-right: 5px;
+}
+
+.button {
+    
+    transition: width 2s;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #fd9814;
+    border: none;
+    font-size: 28px;
+    width: 50px;
+    
+    padding-right: 55px;
+}
+
+
+.button:hover {
+    
+    width: 300px;
+}
+
+#first span {
+ 
+    display: inline-block;
+    position: relative;
+    transition: 1.5s;
+}
+
+#first span:after {
+    
+    content: 'kentmozo45@gmail.com';
+    font-family: "Arial";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    top: 17px;
+    right: -10px;
+    transition: 0.5s;
+}
+
+#first:hover span {
+     
+    padding-right: 220px;
+}
+
+#first:hover span:after {
+  
+    opacity: 1;
+    right: 0;
+}
+
+#second span {
+ 
+    display: inline-block;
+    position: relative;
+    transition: 1.5s;
+}
+
+#second span:after {
+    
+    content: '300-9280/221-6494';
+    font-family: "Arial";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    top: 17px;
+    right: 20px;
+    transition: 0.5s;
+}
+
+#second:hover span {
+     
+    padding-right: 200px;
+}
+
+#second:hover span:after {
+  
+    opacity: 1;
+    right: 0;
+}
+
+#third span {
+ 
+    display: inline-block;
+    position: relative;
+    transition: 1.5s;
+}
+
+#third span:after {
+    
+    content: '09232736628';
+    font-family: "Arial";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    top: 17px;
+    right: -10px;
+    transition: 0.5s;
+}
+
+#third:hover span {
+     
+    padding-right: 179px;
+}
+
+#third:hover span:after {
+  
+    opacity: 1;
+    right: 0;
+}
+
+#fourth span {
+    
+    display: inline-block;
+    position: relative;
+    transition: 1.5s;
+}
+
+#fourth span:after {
+    
+    content: 'cangonmozo@yahoo.com';
+    font-family: "Arial";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -10px;
+    transition: 0.5s;
+}
+
+#fourth:hover span {
+     
+    padding-right: 220px;
+}
+
+#fourth:hover span:after {
+  
+    opacity: 1;
+    right: 0;
+}
+
+#fifth span {
+ 
+    display: inline-block;
+    position: relative;
+    transition: 1.5s;
+}
+
+#fifth span:after {
+    
+    content: 'kentmozo45@gmail.com';
+    font-family: "Arial";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -10px;
+    transition: 0.5s;
+}
+
+#fifth:hover span {
+     
+    padding-right: 220px;
+}
+
+#fifth:hover span:after {
+  
+    opacity: 1;
+    right: 0;
+}
+
+#sixth span {
+ 
+    display: inline-block;
+    position: relative;
+    transition: 1.5s;
+}
+
+#sixth span:after {
+    
+    content: 'fire_hall123@yahoo.com';
+    font-family: "Arial";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -10px;
+    transition: 0.5s;
+}
+
+#sixth:hover span {
+     
+    padding-right: 220px;
+}
+
+#sixth:hover span:after {
+  
+    opacity: 1;
+    right: 0;
 }
