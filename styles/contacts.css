@@ -1,0 +1,43 @@
+body {
+    
+    margin: 0;
+}
+
+#container {
+    
+    height: 80%;
+    width: 40%;
+    margin: 4% 30%;
+    background-color: aqua;
+}
+
+#upperCon {
+    
+    height: 30%;
+    width: 100%;
+    background-color: bisque;
+}
+
+#lowerCon {
+    
+    height: 70%;
+    width: 100%;
+}
+
+.text {
+    
+    height: 50%;
+    width: 100%;
+}
+
+.botCon {
+    
+    height: 30%;
+    width: 100%;
+}
+
+.info {
+    
+    height: 50%;
+    width: 100%;
+}
