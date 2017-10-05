@@ -16,13 +16,17 @@ body {
     height: 100%;
     float: left;
     margin-left: 6%;
-    background-color: aqua;
 }
 
 .upCon {
     
     height: 85%;
     width: 100%;
+}
+
+.mySlides1 {
+    
+    display: none;
 }
 
 .downCon {
