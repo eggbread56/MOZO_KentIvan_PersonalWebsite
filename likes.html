@@ -16,6 +16,10 @@
             </div>
             <div class="content">
                 <div class="upCon">
+                    <img class="mySlides2" src="images/tv1.png" style="width:100%">
+                    <img class="mySlides2" src="images/tv2.png" style="width:100%">
+                    <img class="mySlides2" src="images/tv3.png" style="width:100%">
+                    <img class="mySlides2" src="images/tv4.png" style="width:100%">
                 </div>
                 <div clsss="downCon">
                 </div>
@@ -33,12 +37,18 @@
                 function carousel() {
                 var i;
                 var x = document.getElementsByClassName("mySlides1");
+                var y = document.getElementsByClassName("mySlides2");
                 for (i = 0; i < x.length; i++) {
-                     x[i].style.display = "none";  
+                    x[i].style.display = "none";
+                    y[i].style.display = "none";
                 }
                 myIndex++;
                 if (myIndex > x.length) {myIndex = 1}    
                     x[myIndex-1].style.display = "block";  
+    
+                if (myIndex > y.length) {myIndex = 1}
+                    y[myIndex-1].style.display = "block";
+                    
                     setTimeout(carousel, 2000);
                 }
             </script>
