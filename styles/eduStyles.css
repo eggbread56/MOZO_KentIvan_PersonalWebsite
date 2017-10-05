@@ -1,5 +1,10 @@
-img {
+body {
+    
+    margin: 0;
+}
 
-    height: 40%;
-    width: 30%;
+#container {
+    
+    width: 60%;
+    height: 70%;
 }
