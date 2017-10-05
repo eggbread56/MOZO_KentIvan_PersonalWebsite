@@ -16,7 +16,6 @@ body {
     height: 100%;
     float: left;
     margin-left: 6%;
-    background-color: aqua;
 }
 
 .upCon {
@@ -39,4 +38,13 @@ body {
     
     height: 15%;
     width: 100%;
+}
+
+h1 {
+    
+    margin: 0;
+    text-align: center;
+    font-family: "Arial";
+    color: white;
+    
 }
