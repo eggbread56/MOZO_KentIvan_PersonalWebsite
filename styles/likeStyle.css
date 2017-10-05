@@ -16,13 +16,7 @@ body {
     height: 100%;
     float: left;
     margin-left: 6%;
-    opacity: 1;
-    transition: opacity 2s;
-}
 
-.content.fade {
-    
-    opacity: 0;
 }
 
 .upCon {
@@ -32,6 +26,11 @@ body {
 }
 
 .mySlides1 {
+    
+    display: none;
+}
+
+.mySlides2 {
     
     display: none;
 }
