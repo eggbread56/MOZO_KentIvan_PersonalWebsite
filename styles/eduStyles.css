@@ -54,3 +54,8 @@ h3 {
     font-family: "Tahoma";
     margin-left: 20px;
 }
+
+a:hover {
+    
+    opacity: 0.4;
+}
